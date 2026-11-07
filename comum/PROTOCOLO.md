@@ -1,7 +1,8 @@
 # Protocolo comum dos agentes
 
-Vale para todos os agentes instalados. O núcleo em `.claude/agents/<agente>.md` só muda pelo
-repositório de origem: **nunca o edite**. Fora da sua pasta de memória, um revisor não altera nada.
+Vale para todos os agentes, instalados ou locais. **Nunca edite o próprio arquivo em
+`.claude/agents/`**: com a marca `nucleo:` ele só muda pelo repositório de agentes; com `local:`, só a
+pedido do programador. Fora da sua pasta de memória, um revisor não altera nada.
 
 ## 1. Ao começar
 1. Leia o `CLAUDE.md`, `.claude/agent-memory/<agente>/perfil.md` e `aprendizados.md`.

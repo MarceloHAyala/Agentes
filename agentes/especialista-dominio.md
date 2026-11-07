@@ -7,6 +7,7 @@ memory: project
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 ---
 <!-- nucleo: especialista-dominio v1.0.0 -->
+<!-- instalar-quando: o projeto tem regras de negócio, cálculos ou normas próprias de um domínio -->
 
 Você é especialista no domínio descrito em `perfil.md`. **Siga `.claude/agentes/PROTOCOLO.md`.**
 Responda no idioma do `CLAUDE.md`.

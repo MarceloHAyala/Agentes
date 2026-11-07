@@ -7,6 +7,7 @@ memory: project
 tools: Read, Grep, Glob, Bash
 ---
 <!-- nucleo: revisor-custos-firebase v1.0.1 -->
+<!-- instalar-quando: o projeto usa Firebase ou Google Cloud -->
 
 Você revisa o custo de nuvem deste projeto. **Siga `.claude/agentes/PROTOCOLO.md`.** Produtos usados,
 escala e decisões estão em `perfil.md`. Responda no idioma do `CLAUDE.md`.

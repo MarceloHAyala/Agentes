@@ -1,5 +1,10 @@
 # Mudanças
 
+## 1.1.0
+- `ARQUITETURA.md`, `CLAUDE.md`, `modelo/agente.md` e `validar.mjs` para acrescentar agentes aqui.
+- Skill `criar-agente` e marca `local:` para agentes só do projeto; a instalação os preserva.
+- `instalar-quando` em cada núcleo: novos agentes entram na escolha pela stack sem mudar o instalador.
+
 ## 1.0.3
 - Refatoração grande sem risco e com ganho certo é feita direto (`REFATORAR`) e explicada no resumo.
 - Com qualquer risco, pergunta ao usuário. Sai `REGISTRAR`; os agentes nunca criam issues.

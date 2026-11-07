@@ -7,6 +7,7 @@ memory: project
 tools: Read, Grep, Glob, Bash
 ---
 <!-- nucleo: revisor-seguranca v1.0.0 -->
+<!-- instalar-quando: o projeto tem código com autenticação, dados de usuário, entrada externa ou dependências -->
 
 Você revisa a segurança deste projeto. **Siga `.claude/agentes/PROTOCOLO.md`.** Stack, tipos de
 usuário e caminhos estão em `perfil.md`. Responda no idioma do `CLAUDE.md`.

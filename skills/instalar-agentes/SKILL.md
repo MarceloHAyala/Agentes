@@ -10,13 +10,17 @@ Pergunte só se o projeto não der a resposta. Rodar de novo deve ser seguro.
 2. **Conheça o projeto**: `CLAUDE.md`, README, manifestos, `firebase.json`, regras do banco, código do
    backend e o histórico. Identifique quais produtos são de fato usados: `firebase.json` com `database`
    e chamadas `firebase/database` indicam RTDB, não Firestore.
-3. **Escolha** os agentes: os dos argumentos, ou os que fazem sentido pela stack. Não instale um agente
-   sem objeto (custos Firebase sem Firebase, vitrine sem landing) e diga por quê.
+3. **Escolha** os agentes: os dos argumentos, ou os de `agentes/` cujo `instalar-quando` vale para o
+   projeto. Não instale um agente sem objeto e diga por quê.
 4. **Copie**:
    - `agentes/<agente>.md` para `.claude/agents/`, substituindo o núcleo. Se o arquivo local tiver sido
      editado à mão, mostre o que se perderia antes de sobrescrever.
+   - **Nunca altere nem remova arquivos com a marca `<!-- local: ... -->`** nem a memória deles. Se um
+     agente do repositório tiver o mesmo nome de um local, não o instale e avise.
    - `comum/PROTOCOLO.md` para `.claude/agentes/PROTOCOLO.md`.
-   - `skills/revisar-entrega/` para `.claude/skills/revisar-entrega/`.
+   - `ARQUITETURA.md` para `.claude/agentes/ARQUITETURA.md` e `modelo/agente.md` para
+     `.claude/agentes/modelo-agente.md`.
+   - `skills/revisar-entrega/` e `skills/criar-agente/` para `.claude/skills/`.
 5. **Adapte**: em `.claude/agent-memory/<agente>/` crie o que faltar, **sem sobrescrever o que existe**:
    - `perfil.md`, específico e com caminhos reais:
      - `gatilhos:` caminhos e tipos de mudança que acionam o agente, incluindo os arquivos que importam
@@ -39,8 +43,9 @@ Pergunte só se o projeto não der a resposta. Rodar de novo deve ser seguro.
    ## Agentes de revisão
    Ao terminar toda tarefa que altere arquivos do projeto, rode a skill `revisar-entrega` sem esperar pedido. Ela
    escolhe os agentes e os modelos, aplica as correções seguras e registra os aprendizados.
-   Agentes instalados: <agente: quando roda>.
-   Os núcleos em `.claude/agents/` só mudam pelo repositório MarceloHAyala/Agentes.
+   Agentes instalados: <agente: quando roda, incluindo os locais já listados>.
+   Agentes com marca `nucleo:` só mudam pelo repositório MarceloHAyala/Agentes; os com marca `local:` são
+   deste projeto. Para acrescentar um agente só aqui, use a skill `criar-agente`.
    <!-- agentes:fim -->
    ```
 

@@ -21,6 +21,20 @@ O `CLAUDE.md` do projeto manda rodar `revisar-entrega` ao fim de cada tarefa. A 
 e os modelos e aplica só as correções seguras. As regras de confiança estão em `comum/PROTOCOLO.md`:
 só decisões de autores de referência viram padrão a exigir de todos.
 
+## Comandos
+| Comando | Onde | O que faz |
+|---|---|---|
+| `/instalar-agentes` | Qualquer projeto | Instala ou atualiza os agentes, preservando perfil, aprendizados e agentes locais |
+| `/revisar-entrega` | Projeto com agentes | Revisa a entrega; normalmente roda sozinho ao fim da tarefa |
+| `/criar-agente` | Projeto com agentes | Cria um agente só naquele projeto, sem enviar nada a este repositório |
+
+## Acrescentar agentes
+- **Para todos os projetos:** abra este repositório no Claude Code e peça o agente. Ele segue
+  `skills/criar-agente/SKILL.md` e `node validar.mjs` confere o resultado.
+- **Só no seu projeto:** rode `/criar-agente` nele. Nada sobe para cá.
+
+Detalhes em [ARQUITETURA.md](ARQUITETURA.md).
+
 ## Atualizar
 Mude o núcleo aqui, suba a versão no comentário `nucleo:` e no `CHANGELOG.md`, rode os `casos-teste/` e
-rode `/instalar-agentes` no projeto. Perfil e aprendizados são preservados.
+rode `/instalar-agentes` no projeto.

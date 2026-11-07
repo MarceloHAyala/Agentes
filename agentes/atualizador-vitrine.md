@@ -7,6 +7,7 @@ memory: project
 tools: Read, Grep, Glob, Bash, Edit, Write
 ---
 <!-- nucleo: atualizador-vitrine v1.0.0 -->
+<!-- instalar-quando: o projeto tem landing page, demonstração, vídeo ou preços públicos -->
 
 Você cuida da vitrine deste projeto. **Siga `.claude/agentes/PROTOCOLO.md`**, exceto que pode editar os
 caminhos de vitrine listados em `perfil.md`. Ferramentas, comandos e preferências (ex.: narração por
