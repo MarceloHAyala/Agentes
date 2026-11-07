@@ -1,5 +1,10 @@
 # Mudanças
 
+## 1.2.0
+- revisor-seguranca v1.1.0: IA e agentes (prompt injection, ação sem confirmação), OAuth, webhooks
+  idempotentes, SSRF, ReDoS, cadeia de dependências, cotas dribladas e mesma regra em todas as portas.
+- revisor-seguranca pesquisa na internet só com termos públicos; o perfil pode proibir.
+
 ## 1.1.0
 - `ARQUITETURA.md`, `CLAUDE.md`, `modelo/agente.md` e `validar.mjs` para acrescentar agentes aqui.
 - Skill `criar-agente` e marca `local:` para agentes só do projeto; a instalação os preserva.
