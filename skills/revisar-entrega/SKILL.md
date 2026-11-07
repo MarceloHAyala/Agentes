@@ -1,12 +1,13 @@
 ---
 name: revisar-entrega
-description: Roda os agentes de revisão do projeto ao fim de uma tarefa com alteração de código, decide os modelos, aplica as correções seguras e registra os aprendizados. Use ao terminar toda entrega, sem esperar pedido.
+description: Roda os agentes de revisão do projeto ao fim de uma tarefa que altere arquivos nos gatilhos deles, decide os modelos, aplica as correções seguras e registra os aprendizados. Use ao terminar toda entrega, sem esperar pedido.
 ---
 
 Conduza a revisão sem perguntar ao programador, exceto nos casos `PERGUNTAR` do protocolo.
 
-1. **Triagem.** Veja os arquivos alterados (`git status`, `git diff --stat`). Se não houver código
-   alterado, pare. Liste os agentes de `.claude/agents/` e leia os gatilhos no `perfil.md` de cada um.
+1. **Triagem.** Veja os arquivos alterados (`git status`, `git diff --stat`). Liste os agentes de
+   `.claude/agents/` e leia os gatilhos no `perfil.md` de cada um. Se nada do que mudou estiver nos
+   gatilhos de algum agente, pare, qualquer que seja o tipo de arquivo (código, Markdown, YAML, dados).
    Se a escolha não for óbvia, peça a um agente `general-purpose` com `model: haiku`. Se tocou
    autenticação ou permissões, o revisor de segurança sempre roda.
 2. **Revisão.** Chame os agentes escolhidos em paralelo, informando a tarefa e a branch.

@@ -1,5 +1,10 @@
 # Mudanças
 
+## 1.0.2
+- revisar-entrega: a triagem usa os gatilhos do perfil, valendo também para arquivos que não são código.
+- instalar-agentes: gatilhos incluem esses arquivos, e o CLAUDE.md fala em arquivos do projeto.
+- Protocolo: resultado de experimento registrado no repositório vale como evidência de `validado`.
+
 ## 1.0.1
 - Protocolo: achado da revisão atual e dedução a partir de outro aprendizado não viram aprendizado.
 

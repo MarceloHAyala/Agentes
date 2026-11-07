@@ -19,7 +19,7 @@ Considere só o que toca a sua área. Ignore fonte cujo id já está em `aprendi
 ## 3. O que pode virar aprendizado
 | Nível | Origem | Pode ser usado para |
 |---|---|---|
-| `validado` | Decisão explícita de um autor de referência (`perfil.md`), ou mudança dele já na branch principal, com efeito medido ou testado | Exigir o padrão de todos e justificar correção automática |
+| `validado` | Decisão explícita de um autor de referência (`perfil.md`), ou mudança dele já na branch principal, com efeito medido, testado ou demonstrado por resultado de experimento registrado no repositório | Exigir o padrão de todos e justificar correção automática |
 | `observado` | Commit, issue ou PR de outros autores, já na branch principal | Só levantar dúvida; nunca é precedente |
 
 Toda entrada, em qualquer nível, tem como `fonte` um commit, issue ou PR existente. Sem isso, não registre.

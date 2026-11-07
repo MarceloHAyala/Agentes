@@ -19,7 +19,8 @@ Pergunte só se o projeto não der a resposta. Rodar de novo deve ser seguro.
    - `skills/revisar-entrega/` para `.claude/skills/revisar-entrega/`.
 5. **Adapte**: em `.claude/agent-memory/<agente>/` crie o que faltar, **sem sobrescrever o que existe**:
    - `perfil.md`, específico e com caminhos reais:
-     - `gatilhos:` caminhos e tipos de mudança que acionam o agente;
+     - `gatilhos:` caminhos e tipos de mudança que acionam o agente, incluindo os arquivos que importam
+       mesmo sem ser código (Markdown, YAML, dados);
      - `autores de referência:` o `git config user.name` atual;
      - stack e produtos usados, escala realista, o que não sugerir;
      - comandos de teste e, por agente: produtos e preços (custos), tipos de sessão (segurança),
@@ -36,7 +37,7 @@ Pergunte só se o projeto não der a resposta. Rodar de novo deve ser seguro.
    ```
    <!-- agentes:inicio -->
    ## Agentes de revisão
-   Ao terminar toda tarefa que altere código, rode a skill `revisar-entrega` sem esperar pedido. Ela
+   Ao terminar toda tarefa que altere arquivos do projeto, rode a skill `revisar-entrega` sem esperar pedido. Ela
    escolhe os agentes e os modelos, aplica as correções seguras e registra os aprendizados.
    Agentes instalados: <agente: quando roda>.
    Os núcleos em `.claude/agents/` só mudam pelo repositório MarceloHAyala/Agentes.
