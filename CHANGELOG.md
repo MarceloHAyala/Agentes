@@ -1,5 +1,9 @@
 # Mudanças
 
+## 1.0.3
+- Refatoração grande sem risco e com ganho certo é feita direto (`REFATORAR`) e explicada no resumo.
+- Com qualquer risco, pergunta ao usuário. Sai `REGISTRAR`; os agentes nunca criam issues.
+
 ## 1.0.2
 - revisar-entrega: a triagem usa os gatilhos do perfil, valendo também para arquivos que não são código.
 - instalar-agentes: gatilhos incluem esses arquivos, e o CLAUDE.md fala em arquivos do projeto.

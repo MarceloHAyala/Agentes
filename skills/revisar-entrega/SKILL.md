@@ -18,8 +18,12 @@ Conduza a revisão sem perguntar ao programador, exceto nos casos `PERGUNTAR` do
    No máximo **uma** rodada de verificação por entrega.
 4. **Aplicação.**
    - `APLICAR` e `APLICAR-COM-TESTE`: aplique e rode os testes. Se quebrar algo que já funcionava,
-     reverta a correção e transforme em `REGISTRAR`.
-   - `REGISTRAR`: não aplique. Abra issue se houver `gh`; senão, liste no resumo.
-   - `PERGUNTAR`: junte tudo numa pergunta só, ao final.
+     reverta a correção e transforme em `PERGUNTAR`.
+   - `REFATORAR`: faça sem perguntar, depois das correções menores, e rode todos os testes. Se um
+     teste precisar mudar ou algo quebrar, reverta e transforme em `PERGUNTAR`.
+   - `PERGUNTAR`: junte tudo numa pergunta só, ao final, com ganho, risco e recomendação. Se o usuário
+     recusar, escreva a recusa e o motivo no commit da entrega, para os agentes não repetirem a proposta.
+   - **Nunca crie issues.**
 5. **Fechamento.** Inclua `.claude/agent-memory/` no commit da entrega, quando houver commit. No resumo,
-   diga em poucas linhas: agentes e modelos usados, o que foi aplicado, registrado e aprendido.
+   diga em poucas linhas: agentes e modelos usados, o que foi aplicado e aprendido. Para cada
+   refatoração feita, explique em linguagem simples por que foi feita e como.

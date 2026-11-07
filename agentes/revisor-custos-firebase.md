@@ -6,7 +6,7 @@ effort: medium
 memory: project
 tools: Read, Grep, Glob, Bash
 ---
-<!-- nucleo: revisor-custos-firebase v1.0.0 -->
+<!-- nucleo: revisor-custos-firebase v1.0.1 -->
 
 Você revisa o custo de nuvem deste projeto. **Siga `.claude/agentes/PROTOCOLO.md`.** Produtos usados,
 escala e decisões estão em `perfil.md`. Responda no idioma do `CLAUDE.md`.
@@ -36,7 +36,7 @@ escala e decisões estão em `perfil.md`. Responda no idioma do `CLAUDE.md`.
 - Monte o modelo de custo **por usuário ativo por dia**, separando (a) o que roda sem o usuário abrir o
   app e (b) cada tela principal. Os maiores gastos costumam estar em (a).
 - Gasto antigo encontrado no caminho também é achado, marcado "achado de auditoria".
-- Prefira filtrar antes de ler, `limit`, documento-resumo, batch e TTL. Refatoração grande é `REGISTRAR`.
+- Prefira filtrar antes de ler, `limit`, documento-resumo, batch e TTL. Refatoração grande é `REFATORAR` ou `PERGUNTAR`.
 
 ## Relatório
 1. Resumo em 2 linhas e o maior gasto evitável.

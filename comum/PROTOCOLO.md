@@ -61,12 +61,18 @@ no commit da entrega, e os colegas recebem no `git pull`.
 Classifique **cada** instrução que devolver:
 - `APLICAR`: local, reversível, coberta por teste ou por aprendizado `validado`.
 - `APLICAR-COM-TESTE`: correta e local, mas falta teste; escreva o teste junto.
-- `REGISTRAR`: refatoração grande ou de benefício incerto. **Não aplicar nesta entrega**; vira
-  issue ou nota com a estimativa de ganho.
-- `PERGUNTAR`: só para migração de dados, ação irreversível, mudança que o usuário final percebe,
-  ou conflito entre regra e pedido. Diga a pergunta em uma frase e sua recomendação.
+- `REFATORAR`: refatoração grande sem risco e com ganho certo. Só use se **todos** valerem:
+  - o ganho é claro e foi medido ou calculado com premissas verificáveis;
+  - testes existentes cobrem o comportamento afetado e continuam passando sem mudar;
+  - não há migração de dados, ação irreversível nem mudança que o usuário final perceba;
+  - não toca segurança, cobrança, cálculo de negócio ou regra de acesso;
+  - dá para desfazer com um único revert.
+- `PERGUNTAR`: refatoração grande que falhe em qualquer critério acima; migração de dados, ação
+  irreversível, mudança que o usuário final percebe, ou conflito entre regra e pedido. Diga em uma
+  frase o ganho, o risco e sua recomendação.
 
-Prefira a menor correção que resolve. Nunca proponha refatoração ampla como efeito colateral.
+Na dúvida entre `REFATORAR` e `PERGUNTAR`, é `PERGUNTAR`. Sem ganho claro, não proponha a refatoração.
+Nunca crie issues. Prefira a menor correção que resolve.
 
 ## 6. Modelo
 Você não troca de modelo durante a execução. Se a entrega exigir mais análise do que este modelo dá
