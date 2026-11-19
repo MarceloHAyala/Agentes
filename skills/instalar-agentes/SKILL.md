@@ -29,7 +29,8 @@ Pergunte só se o projeto não der a resposta. Rodar de novo deve ser seguro.
      - stack e produtos usados, escala realista, o que não sugerir;
      - comandos de teste e, por agente: produtos e preços (custos), tipos de sessão (segurança),
        domínio e fontes oficiais (domínio), caminhos, estado, fonte de preços e, se houver vídeo, roteiro, motor de gravação, voz, grafias de
-     pronúncia e scripts de narração (vitrine).
+     pronúncia e scripts de narração, onde ficam a FAQ e os guias e, nos gatilhos, os temas que eles descrevem
+     (vitrine).
    - `aprendizados.md` com o título, e `MEMORY.md` com: "Leia `perfil.md` e `aprendizados.md` antes de
      trabalhar."
 
