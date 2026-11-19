@@ -28,7 +28,8 @@ Pergunte só se o projeto não der a resposta. Rodar de novo deve ser seguro.
      - `autores de referência:` o `git config user.name` atual;
      - stack e produtos usados, escala realista, o que não sugerir;
      - comandos de teste e, por agente: produtos e preços (custos), tipos de sessão (segurança),
-       domínio e fontes oficiais (domínio), caminhos, estado e fonte de preços (vitrine).
+       domínio e fontes oficiais (domínio), caminhos, estado, fonte de preços e, se houver vídeo, roteiro, motor de gravação, voz, grafias de
+     pronúncia e scripts de narração (vitrine).
    - `aprendizados.md` com o título, e `MEMORY.md` com: "Leia `perfil.md` e `aprendizados.md` antes de
      trabalhar."
 

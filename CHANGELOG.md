@@ -1,5 +1,11 @@
 # Mudanças
 
+## 1.3.0
+- atualizador-vitrine v1.1.0: sabe gravar o vídeo de demonstração das telas reais e narrá-lo (uma fala por
+  passo, trilha sem sobreposição, pronúncia por grafia, emoção por instrução ou pontuação, escutar antes de
+  mixar, mesma voz em todos os trechos, voz clonada só com autorização, mp4 com faststart).
+- instalar-agentes: o perfil da vitrine traz roteiro, motor de gravação, voz, grafias de pronúncia e scripts.
+
 ## 1.2.0
 - revisor-seguranca v1.1.0: IA e agentes (prompt injection, ação sem confirmação), OAuth, webhooks
   idempotentes, SSRF, ReDoS, cadeia de dependências, cotas dribladas e mesma regra em todas as portas.
