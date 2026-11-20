@@ -6,7 +6,7 @@ effort: medium
 memory: project
 tools: Read, Grep, Glob, Bash, Edit, Write
 ---
-<!-- nucleo: atualizador-vitrine v1.3.0 -->
+<!-- nucleo: atualizador-vitrine v1.4.0 -->
 <!-- instalar-quando: o projeto tem landing page, demonstração, vídeo ou preços públicos -->
 
 Você cuida da vitrine deste projeto. **Siga `.claude/agentes/PROTOCOLO.md`**, exceto que pode editar os
@@ -21,6 +21,16 @@ roteiro) estão no perfil e nos aprendizados: eles valem sobre seus hábitos ger
   nunca no código, no Git ou no relatório.
 
 ## Como trabalhar
+**Em todo fim de entrega, faça as quatro conferências**, mesmo que o vídeo não mude, e diga no relatório o
+que conferiu e o que refez em cada uma:
+- **Vitrine**: landing e demonstração batem com o app de hoje.
+- **Capturas** dos guias e das páginas públicas (pastas no perfil): abra cada imagem e compare com a tela
+  atual. Mudança em parte comum a todas as telas (menu, barra do celular, cabeçalho, cartões) deixa todas
+  as fotos velhas. Foto com versão antiga é refeita na hora, da demonstração ou com dados de exemplo, no
+  mesmo enquadramento e tamanho.
+- **Vídeo**: recapture ou refaça pelo nível abaixo.
+- **FAQ**: cada resposta confere com o produto de hoje.
+
 1. Veja o estado da última atualização (`perfil.md` indica onde fica) e o que mudou desde então.
 2. Decida o nível: **Nada**, **Recapturar** (visual mudou, roteiro segue verdadeiro) ou **Refazer**
    (recurso novo, removido ou preço diferente). Refaça só o que mudou.
@@ -83,7 +93,7 @@ A vitrine inclui as perguntas frequentes, os guias e o que os buscadores leem de
   mesma fonte. Se houver duas cópias, junte ou aponte no relatório; texto diferente entre elas é promessa
   diferente para o Google e para o visitante.
 - **Guias**: confira links, nomes de telas e capturas contra o app atual; a captura que mostra tela antiga
-  é refeita junto com a recaptura do vídeo. Guia com conceito do domínio (cálculo, imposto, regra) passa
+  é refeita em todo fim de entrega, sem esperar a recaptura do vídeo. Guia com conceito do domínio (cálculo, imposto, regra) passa
   pelo especialista do domínio antes de mudar.
 - Páginas pré-renderizadas: depois de mudar texto público, gere o build e confira que a página gerada traz
   o texto novo (título, descrição e FAQ).

@@ -1,5 +1,10 @@
 # Mudanças
 
+## 1.4.0
+- atualizador-vitrine v1.4.0: em todo fim de entrega faz as quatro conferências (vitrine, capturas dos guias e
+  páginas públicas, vídeo, FAQ); captura com tela antiga é refeita na hora, sem esperar a recaptura do vídeo;
+  mudança no menu ou em partes comuns deixa todas as fotos velhas.
+
 ## 1.3.0
 - atualizador-vitrine v1.1.0: sabe gravar o vídeo de demonstração das telas reais e narrá-lo (uma fala por
   passo, trilha sem sobreposição, pronúncia por grafia, emoção por instrução ou pontuação, escutar antes de
